@@ -1,7 +1,18 @@
+/* GENERAL */
+
 body {
     background-color: #CE9175;
     background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
     font-family: 'Merienda', cursive;
+}
+
+hr {
+    width: 6%;
+    border: 5px dotted;
+    border-style: dotted none none;
+    border-color: #f5e9e4;
+    margin: 20px auto;
+    opacity: .6;
 }
 
 /* HEADER */
@@ -11,6 +22,15 @@ body {
 .navbar {
     background-color: #CE9175;
     background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
+    
+}
+
+.navbar-toggler {
+    color: #f5e9e4;
+}
+
+a.nav-link {
+    color: #f5e9e4;
 }
 
 .nav-item {
@@ -99,11 +119,13 @@ body {
 .mask h1 {
     display: flex;
     align-items: left;
+    color: #f5e9e4;
 }
 
 .hero-quote {
     display: flex;
     align-items: left;
+    color: #f5e9e4;
 }
 
 /* HEADER END */
