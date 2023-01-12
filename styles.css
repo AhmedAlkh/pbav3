@@ -3,3 +3,13 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
     font-family: 'Merienda', cursive;
 }
+
+/* NAVIGATION */
+ul {
+    list-style: none;
+}
+
+li {
+    float: right;
+    padding: 0 16px;
+}
