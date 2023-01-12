@@ -4,12 +4,36 @@ body {
     font-family: 'Merienda', cursive;
 }
 
+/* HEADER */
+
 /* NAVIGATION */
-ul {
-    list-style: none;
+
+.navbar {
+    background-color: #CE9175;
+    background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
 }
 
-li {
-    float: right;
-    padding: 0 16px;
+.nav-item {
+    padding: 0 12px 0 12px;
 }
+
+/* HERO */
+
+.bg-image {
+    background-image: url('/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+}
+
+.mask h1 {
+    display: flex;
+    align-items: left;
+}
+
+.hero-quote {
+    display: flex;
+    align-items: left;
+}
+
+/* HEADER END */
