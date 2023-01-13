@@ -19,6 +19,13 @@ hr {
 
 /* NAVIGATION */
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
 .navbar {
     background-color: #CE9175;
     background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
