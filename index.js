@@ -7,7 +7,7 @@ function sendEmail() {
 
     Email.send({
         SecureToken : "10a6a2c7-1213-464c-9daa-03ae6c032e7d",
-        To : 'alaa.abbas993@gmail.com',
+        To : 'alkhatib_ahmed@hotmail.com',
         From : userEmail,
         Subject : "message from Photos by Alaa",
         Body : "Name: " + userName
