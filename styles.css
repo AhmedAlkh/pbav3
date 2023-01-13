@@ -229,4 +229,56 @@ div.text-white {
     margin-bottom: 17px;
 }
 
+.contact-container {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: rgba(226, 192, 178, .4);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 10rem;
+}
+
+form h3 {
+    color: #f5e9e4;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    background-color: #f5e9e4;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+form button {
+    padding: 10px ;
+    background-color: #dd7973;
+    color: #f5e9e4;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 150px;
+    margin: 20px auto 0;
+}
+
+form button:hover {
+    background-color: #d24c44;
+}
+
 /* CONTACT END */
