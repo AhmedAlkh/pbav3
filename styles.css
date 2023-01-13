@@ -15,6 +15,11 @@ hr {
     opacity: .6;
 }
 
+.section-titles {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* HEADER */
 
 /* NAVIGATION */
