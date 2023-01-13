@@ -185,3 +185,48 @@ div.text-white {
 }
 
 /* GALLERY END */
+
+/* BIO */
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio-heading {
+    margin: auto;
+    color: #f5e9e4;
+    align-self: flex-start;
+    margin-bottom: 17px;
+}
+
+.bio img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20px;
+}
+
+.bio-text {
+    padding: 30px;
+}
+/* BIO END */
+
+/* CONTACT */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-heading {
+    margin: auto;
+    color: #f5e9e4;
+    align-self: flex-start;
+    margin-bottom: 17px;
+}
+
+/* CONTACT END */
