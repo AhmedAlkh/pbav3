@@ -6,7 +6,7 @@ function sendEmail() {
     var userName = document.getElementById("name").value;
 
     Email.send({
-        SecureToken : "10a6a2c7-1213-464c-9daa-03ae6c032e7d",
+        SecureToken : "9067e191-3012-4842-b29e-3e9c9fea89c9",
         To : 'alkhatib_ahmed@hotmail.com',
         From : userEmail,
         Subject : "message from Photos by Alaa",
