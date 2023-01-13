@@ -1,3 +1,5 @@
+// Function for sending email through contact form
+
 function sendEmail() {
     var userEmail = document.getElementById("email").value;
     var messageSent = document.getElementById("message").value;
@@ -16,3 +18,10 @@ function sendEmail() {
     );
 }
 
+// function for navbar to collapse the navbar menu when a link is clicked
+
+function toggleNavbar(event) {
+  event.preventDefault();
+  $(event.target).closest('.navbar-collapse').collapse('toggle');
+  window.location = event.target.getAttribute('href');
+}

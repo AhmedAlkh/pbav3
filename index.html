@@ -28,23 +28,23 @@
       <nav class="navbar navbar-expand-lg navbar-light sticky">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+            data-target="#navbarClose" aria-controls="navbarClose" aria-expanded="false"
             aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarExample01">
+          <div class="collapse navbar-collapse" id="navbarClose">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item active wobble-vertical-on-hover">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#" data-toggle="collapse" data-target="#navbarClose" onclick="toggleNavbar(event)">Home</a>
               </li>
               <li class="nav-item wobble-vertical-on-hover">
-                <a class="nav-link" href="#gallery">Gallery</a>
+                <a class="nav-link" href="#gallery" data-toggle="collapse" data-target="#navbarClose" onclick="toggleNavbar(event)">Gallery</a>
               </li>
               <li class="nav-item wobble-vertical-on-hover">
-                <a class="nav-link" href="#bio">Bio</a>
+                <a class="nav-link" href="#bio" data-toggle="collapse" data-target="#navbarClose" onclick="toggleNavbar(event)">Bio</a>
               </li>
               <li class="nav-item wobble-vertical-on-hover">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contact" data-toggle="collapse" data-target="#navbarClose" onclick="toggleNavbar(event)">Contact</a>
               </li>
               <li class="nav-item wobble-vertical-on-hover">
                 <a class="nav-link" href="https://www.instagram.com/photosbyalaax/" target="_blank" rel="noreferrer">
