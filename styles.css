@@ -109,6 +109,10 @@ a.nav-link {
 
 /* HERO */
 
+div.text-white {
+    background-color: rgba(226, 192, 178, .4);
+}
+
 .bg-image {
     background-image: url('/images/banner.png');
     background-repeat: no-repeat;
@@ -129,3 +133,18 @@ a.nav-link {
 }
 
 /* HEADER END */
+
+/* GALLERY */
+
+.gallery {
+    display: flex;
+}
+
+.gallery-heading {
+    margin: auto;
+    color: #f5e9e4;
+}
+
+
+
+/* GALLERY END */
