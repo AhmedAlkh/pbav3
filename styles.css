@@ -40,6 +40,10 @@ a.nav-link {
     color: #f5e9e4;
 }
 
+a.nav-link:hover {
+    color: #d24c44;
+}
+
 .nav-item {
     padding: 0 12px 0 12px;
 }
@@ -210,6 +214,7 @@ div.text-white {
 
 .bio-text {
     padding: 30px;
+    color: #f5e9e4;
 }
 /* BIO END */
 
@@ -282,3 +287,30 @@ form button:hover {
 }
 
 /* CONTACT END */
+
+/* FOOTER */
+
+footer {
+    margin-top: 160px;
+    background-color: #CE9175;
+    background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
+    color: #f5e9e4;
+}
+
+.site-link {
+    color: #f5e9e4;
+}
+
+.site-link:hover {
+    color: #d24c44;
+}
+
+.btn-link {
+    color: #f5e9e4;
+}
+
+.btn-link:hover {
+    color: #d24c44;
+}
+
+/* FOOTER END */
