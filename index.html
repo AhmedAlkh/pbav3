@@ -7,74 +7,133 @@
     <!-- Website title -->
     <title>Photos by Alaa</title>
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico" />
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- FONT AWESOME FOR ICONS -->
-    <script src="https://kit.fontawesome.com/c5af845aea.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c5af845aea.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <!-- CSS reset -->
-    <link rel="stylesheet" type="text/css" href="/reset.css">
+    <link rel="stylesheet" type="text/css" href="/reset.css" />
     <!-- CSS custom stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
   </head>
   <body>
-
     <header>
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light sticky">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarClose" aria-controls="navbarClose" aria-expanded="false"
-            aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarClose"
+            aria-controls="navbarClose"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <i class="fas fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarClose">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item active wobble-vertical-on-hover">
-                <a class="nav-link" aria-current="page" href="#" data-toggle="collapse" data-target="#navbarClose" onclick="toggleNavbar(event)">Home</a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#"
+                  data-toggle="collapse"
+                  data-target="#navbarClose"
+                  onclick="toggleNavbar(event)"
+                  >Home</a
+                >
               </li>
               <li class="nav-item wobble-vertical-on-hover">
-                <a class="nav-link" href="#gallery" data-toggle="collapse" data-target="#navbarClose" onclick="toggleNavbar(event)">Gallery</a>
+                <a
+                  class="nav-link"
+                  href="#gallery"
+                  data-toggle="collapse"
+                  data-target="#navbarClose"
+                  onclick="toggleNavbar(event)"
+                  >Gallery</a
+                >
               </li>
               <li class="nav-item wobble-vertical-on-hover">
-                <a class="nav-link" href="#bio" data-toggle="collapse" data-target="#navbarClose" onclick="toggleNavbar(event)">Bio</a>
+                <a
+                  class="nav-link"
+                  href="#bio"
+                  data-toggle="collapse"
+                  data-target="#navbarClose"
+                  onclick="toggleNavbar(event)"
+                  >Bio</a
+                >
               </li>
               <li class="nav-item wobble-vertical-on-hover">
-                <a class="nav-link" href="#contact" data-toggle="collapse" data-target="#navbarClose" onclick="toggleNavbar(event)">Contact</a>
+                <a
+                  class="nav-link"
+                  href="#contact"
+                  data-toggle="collapse"
+                  data-target="#navbarClose"
+                  onclick="toggleNavbar(event)"
+                  >Contact</a
+                >
               </li>
               <li class="nav-item wobble-vertical-on-hover">
-                <a class="nav-link" href="https://www.instagram.com/photosbyalaax/" target="_blank" rel="noreferrer">
-                <i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/photosbyalaax/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="fa-brands fa-instagram fa-xl"></i
+                ></a>
               </li>
               <li class="nav-item wobble-vertical-on-hover">
-                <a class="nav-link" href="https://www.facebook.com/photosbyalaax" target="_blank" rel="noreferrer">
-                  <i class="fa-brands fa-square-facebook fa-xl"></i></a>
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/photosbyalaax"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="fa-brands fa-square-facebook fa-xl"></i
+                ></a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <!-- Navbar -->
-    
+
       <!-- Background image -->
       <div class="p-5 text-center bg-image">
         <div class="mask">
           <div class="d-flex justify-content-left align-items-left h-100">
             <div class="text-white">
               <h1 class="mb-3">Photos by Alaa</h1>
-              <h4 class="mb-3 hero-quote">“Photography takes an instant out of time,<br> altering life by holding it still.”
-                - Dorothea Lange</h4>
+              <h4 class="mb-3 hero-quote">
+                “Photography takes an instant out of time,<br />
+                altering life by holding it still.” - Dorothea Lange
+              </h4>
             </div>
           </div>
         </div>
       </div>
       <!-- Background image -->
     </header>
-    <hr>
+    <!-- <hr /> -->
 
     <!-- GALLERY -->
     <section class="gallery">
@@ -82,24 +141,106 @@
         <a class="section-titles" name="gallery"><h1>Gallery</h1></a>
       </div>
       <div class="photo-gallery hover01">
-        <figure><img src="/images/coffee.png" alt="Person holding a cup of coffee" class="grid-item"></figure>
-        <figure><img src="/images/drink.jpg" alt="person pouring cream into tea" class="grid-item"></figure>
-        <figure><img src="/images/flags.png" alt="3 american flags at white house" class="grid-item"></figure>
-        <figure><img src="/images/flower.jpg" alt="pink flower in the snow" class="grid-item"></figure>
-        <figure><img src="/images/fountain.png" alt="water fountain infront of white house" class="grid-item"></figure>
-        <figure><img src="/images/fruit.jpg" alt="assorted fruits in a basket" class="grid-item"></figure>
-        <figure><img src="/images/jars.png" alt="3 jars with spices and dry fruits in them" class="grid-item"></figure>
-        <figure><img src="/images/mug.png" alt="a mug on a table in a shady room" class="grid-item"></figure>
-        <figure><img src="/images/pear.png" alt="a pear on a table" class="grid-item"></figure>
-        <figure><img src="/images/plant.png" alt="a plant in a vase in the sunlight" class="grid-item"></figure>
-        <figure><img src="/images/pot.jpg" alt="a mosaic tea pot" class="grid-item"></figure>
-        <figure><img src="/images/roses.png" alt="pink roses" class="grid-item"></figure>
-        <figure><img src="/images/spikes.jpg" alt="a cactus with long spikes" class="grid-item"></figure>
-        <figure><img src="/images/tea.jpg" alt="a cup of tea and a book" class="grid-item"></figure>
-        <figure><img src="/images/whitehouse.png" alt="the whitehouse" class="grid-item"></figure>
+        <figure>
+          <img
+            src="/images/coffee.png"
+            alt="Person holding a cup of coffee"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/drink.png"
+            alt="person pouring cream into tea"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/flags.png"
+            alt="3 american flags at white house"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/flower.png"
+            alt="pink flower in the snow"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/fountain.png"
+            alt="water fountain infront of white house"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/fruit.png"
+            alt="assorted fruits in a basket"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/jars.png"
+            alt="3 jars with spices and dry fruits in them"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/mug.png"
+            alt="a mug on a table in a shady room"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/pear.png"
+            alt="a pear on a table"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/plant.png"
+            alt="a plant in a vase in the sunlight"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img src="/images/pot.png" alt="a mosaic tea pot" class="grid-item" />
+        </figure>
+        <figure>
+          <img src="/images/roses.png" alt="pink roses" class="grid-item" />
+        </figure>
+        <figure>
+          <img
+            src="/images/spikes.png"
+            alt="a cactus with long spikes"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/tea.png"
+            alt="a cup of tea and a book"
+            class="grid-item"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/images/whitehouse.png"
+            alt="the whitehouse"
+            class="grid-item"
+          />
+        </figure>
       </div>
     </section>
-    <hr>
+    <hr />
 
     <!-- BIO -->
     <section class="bio">
@@ -107,35 +248,59 @@
         <a class="section-titles" name="bio"><h1>Bio</h1></a>
       </div>
       <div class="bio-image">
-        <img src="/images/bio.png" alt="selfie image of Alaa the photographer">
+        <img
+          src="/images/bio.png"
+          alt="selfie image of Alaa the photographer"
+        />
       </div>
       <div class="bio-text">
-        <p>Hello! My name is Alaa, thank you for stopping by! I hope you enjoy looking
-          at some of my work in the gallery section above. I do a wide variety of photo styles
-          and the gallery section show cases some of my previous work. I offer different services
-          such as wedding, casual, buisness promotion, and baby photos. Not only do I take the photos, 
-          I also edit them! A little bit about myself, I've been doing photgraphy as a hobby, freelance,
-          have working experience in professional companies as well. I started doing photography in 2017
-          and fell in love with it instanly. Some thing I enjoy doing in my spare time is yoga, going on hikes,
-          watching netflix, travelling, exploring new and unique places to eat, spending time with family,
-          friends, and my cat!
+        <p>
+          Hello! My name is Alaa, thank you for stopping by! I hope you enjoy
+          looking at some of my work in the gallery section above. I do a wide
+          variety of photo styles and the gallery section show cases some of my
+          previous work. I offer different services such as wedding, casual,
+          buisness promotion, and baby photos. Not only do I take the photos, I
+          also edit them! A little bit about myself, I've been doing photgraphy
+          as a hobby, freelance, have working experience in professional
+          companies as well. I started doing photography in 2017 and fell in
+          love with it instanly. Some thing I enjoy doing in my spare time is
+          yoga, going on hikes, watching netflix, travelling, exploring new and
+          unique places to eat, spending time with family, friends, and my cat!
         </p>
       </div>
     </section>
-    <hr>
+    <hr />
 
     <!-- CONTACT FORM -->
     <section class="contact">
       <div class="contact-heading">
-        <a class="section-titles" name="contact"><h1>Contact</h1></a> 
+        <a class="section-titles" name="contact"><h1>Contact</h1></a>
       </div>
       <div class="contact-container">
         <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
         <form action="https://formspree.io/f/mqkoazgn" method="POST">
           <h3>Get in touch</h3>
-          <input type="text" name="name" placeholder="Your name" value="" required>
-          <input type="email" name="email" placeholder="Your email" value="" required>
-          <textarea name="message" rows="4" placeholder="How can we help you?" value="" required></textarea>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            value=""
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email"
+            value=""
+            required
+          />
+          <textarea
+            name="message"
+            rows="4"
+            placeholder="How can we help you?"
+            value=""
+            required
+          ></textarea>
           <button type="submit">Send Message</button>
         </form>
       </div>
@@ -143,54 +308,69 @@
 
     <!-- FOOTER -->
     <footer class="text-center">
-    <!-- Grid container -->
-    <div class="container pt-4">
-    <!-- Section: Social media -->
-    <section class="mb-1">
-      <!-- Facebook -->
-      <a
-        class="btn btn-link btn-floating btn-lg m-1 nav-item wobble-vertical-on-hover"
-        href="https://www.facebook.com/photosbyalaax"
-        target="_blank" 
-        rel="noreferrer"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fa-brands fa-square-facebook fa-xl"></i>
-      </a>
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-1">
+          <!-- Facebook -->
+          <a
+            class="btn btn-link btn-floating btn-lg m-1 nav-item wobble-vertical-on-hover"
+            href="https://www.facebook.com/photosbyalaax"
+            target="_blank"
+            rel="noreferrer"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fa-brands fa-square-facebook fa-xl"></i>
+          </a>
 
-      <!-- Instagram -->
-      <a
-        class="btn btn-link btn-floating btn-lg m-1 nav-item wobble-vertical-on-hover"
-        href="https://www.instagram.com/photosbyalaax/"
-        target="_blank" 
-        rel="noreferrer"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fa-brands fa-instagram fa-xl"></i>
-      </a>
-      
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg m-1 nav-item wobble-vertical-on-hover"
+            href="https://www.instagram.com/photosbyalaax/"
+            target="_blank"
+            rel="noreferrer"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fa-brands fa-instagram fa-xl"></i>
+          </a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center p-3">
-    © 2023 Copyright:
-    <a class="site-link" href="https://ahmedalkhatib.netlify.app/ " target="_blank" rel="noreferrer">AhmAlkh</a>
-  </div>
-  <!-- Copyright -->
-  </footer>
+      <!-- Copyright -->
+      <div class="text-center p-3">
+        © 2023 Copyright:
+        <a
+          class="site-link"
+          href="https://ahmedalkhatib.netlify.app/ "
+          target="_blank"
+          rel="noreferrer"
+          >AhmAlkh</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
 
     <!-- BOOTSTRAP SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <!-- EMAIL SERVICE SCRIPT -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <!-- CUSTOM SCRIPT -->
     <script src="/index.js"></script>
-
   </body>
 </html>
-
